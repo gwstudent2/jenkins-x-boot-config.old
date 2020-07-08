@@ -13,12 +13,11 @@ cluster:
   gitServer: https://github.com
   namespace: jx
   provider: aks
-  registry: e2823688-976d-4deb-ba5b-cf1b43a3c0eb
 environments:
 - ingress:
-    domain: 20.185.79.217.nip.io
+    domain: ""
     externalDNS: false
-    namespaceSubDomain: -jx.
+    namespaceSubDomain: ""
     tls:
       email: ""
       enabled: false

@@ -1,0 +1,10 @@
+adminUser:
+  password: local:jxaksregistry2/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: bl2@nclasters.org
+  token: local:jxaksregistry2/pipelineUser:token
+  username: jx-bot-demo
+prow:
+  hmacToken: local:jxaksregistry2/prow:hmacToken
